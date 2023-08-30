@@ -6,7 +6,7 @@
     justify-content: end;
 }
 
-.footer > span {
+.footer>span {
     font-weight: 300;
     font-size: 1rem;
 }
