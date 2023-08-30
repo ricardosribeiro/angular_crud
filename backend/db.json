@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta bic azul",
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Caderno capa dura 100 fls",
+      "price": 21.99
+    },
+    {
+      "id": 3,
+      "name": "Apontardor",
+      "price": 5.9
+    }
+  ]
+}
