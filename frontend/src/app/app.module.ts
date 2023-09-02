@@ -24,6 +24,7 @@ import { NavComponent } from './components/templates/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     RedDirective,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,

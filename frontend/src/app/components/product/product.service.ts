@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class ProductService {
 
   baseUrl = 'http://localhost:3001/products'
-  
+
   constructor(private snackBar: MatSnackBar, private httpClient: HttpClient) { }
 
   showMessage(msg: string): void {
@@ -24,4 +24,9 @@ export class ProductService {
   createProduct(product: Product): Observable<Product> {
     return this.httpClient.post<Product>(this.baseUrl, product);
   }
+
+  getProducts(): Observable<Product[]> {
+    return this.httpClient.get<Product[]>(this.baseUrl);
+  }
+
 }

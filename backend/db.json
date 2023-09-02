@@ -7,38 +7,13 @@
     },
     {
       "id": 2,
-      "name": "Apontardor",
+      "name": "Teste 1",
       "price": 5.9
     },
     {
-      "id": 3,
-      "name": "Teste Postman",
-      "price": 5.9
-    },
-    {
-      "name": "",
-      "price": 100,
-      "id": 4
-    },
-    {
-      "name": "",
-      "price": 100,
-      "id": 5
-    },
-    {
-      "name": "",
-      "price": 100,
-      "id": 6
-    },
-    {
-      "name": "",
-      "price": 100,
-      "id": 7
-    },
-    {
-      "name": "Teste2",
-      "price": "100",
-      "id": 8
+      "name": "Teste 2",
+      "price": "200",
+      "id": 3
     }
   ]
 }
