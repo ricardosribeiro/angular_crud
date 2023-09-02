@@ -1,0 +1,22 @@
+.title{
+    margin: 10px;
+}
+
+.field {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-self: self-end;
+    margin: 5px;
+    width: 80px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,1 +1,18 @@
-<p>product-create works!</p>
+<mat-card class="mat-elevarion-z2">
+    <mat-card-title class="title">Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field class="field">
+            <input matInput placeholder="Name" [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field class="field">
+            <input matInput placeholder="Price (R$)" [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createProduct()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+
